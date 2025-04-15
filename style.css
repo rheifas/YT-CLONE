@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    background-color: #161616;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #282828;
+    height: 56px;
+}
+
+.logoyt {
+    height: 22px;
+}
+
+.barraPesquisa {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    align-items: center;
+}
+
+#boxSearch {
+    border-radius: 9999px 0 0 9999px;
+    height: 40px;
+}
+
+#form {
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+#micButton {
+    margin-left: 10px;
+}
+
+.barraPesquisaInput {
+    border-right: 1px solid gray;
+    width: 350px;
+    padding: 12px;
+    background-color: #121212;
+    color: white;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    height: 100%;
+}
+
+.botaopesquisa {
+    background-color: #303030;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.botaopesquisa img {
+    height: 20px;
+}
+
+.headerButton {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.headerButton:hover {
+    background-color: #646464;
+}
+
+.botaomic {
+    margin-left: 10px;
+}
+
+.menuIcons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.menuCanal {
+    height: 36px;
+    border-radius: 50%;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+    gap: 24px;
+}
+
+.video-player iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.channel-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.inscrito {
+    scale: 110%;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.iconButton {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.iconButton:hover {
+    background-color: #646464;
+}
+
+.like {
+    display: flex;
+    overflow: hidden;
+
+}
+
+.like .left {
+    border-radius: 20px 0 0 20px;
+    border-right: 1px solid gray;
+
+}
+
+.like .right {
+    border-radius: 0 20px 20px 0;
+
+}
+
+
+.video-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.video-actions span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.visualizacoes {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.desc {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.comments {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.related-videos {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-thumbnail {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #2a2a2a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.video-thumbnail img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    background-color: #444;
+}
